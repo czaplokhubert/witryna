@@ -1,0 +1,254 @@
+body{
+    font-family: sans-serif;
+    background-color:#2E2E2E;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    margin: 0px;
+}
+ul{  
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    width: 100%; 
+}
+a{
+    text-decoration: none;
+    background-color: #000000;
+    padding: 2rem;
+    display: block;
+    color: #C66EFF;
+} 
+a:hover{
+    transition-duration: .5s;
+    background-color: #C66EFF;
+    color: #000000; 
+
+}
+li{
+    flex: 1;
+    width: auto;
+    text-align: center;
+}
+.szkielet {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.about-page {
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%; 
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #444;
+    color: #fff;
+}
+.about-page1 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    background-color: #444;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    box-sizing: border-box; 
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .about-page {
+        justify-content: center; 
+    }
+}
+
+/* .about-page h1  {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.about-page p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+} 
+body .about-page{
+    display: flex;
+    justify-content: center; 
+} */
+aside form{
+    display: flex;
+    justify-content: center;
+}
+ol{
+    list-style-type: none;
+    color: #C66EFF;
+}
+@media (max-width: 845px) {
+    ul {
+      flex-direction: column;
+    }
+  
+    a {
+      padding: 1rem;
+    }
+  
+    .about-page,
+    .about-page1 {
+      padding: 20px;
+      grid-template-columns: 1fr;
+    }
+  
+    li {
+      justify-content: center;
+    }
+  }
+  .form-fullscreen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E2E;
+    padding: 2rem;
+}
+
+form {
+    background-color: #444;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+form h2 {
+    color: #C66EFF;
+    margin: 0;
+    text-align: center;
+}
+
+form input {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.8rem;
+    border: none;
+    background-color: #C66EFF;
+    color: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #9d4edb;
+}
+form .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #C66EFF;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 0.8rem 1.5rem;
+}
+.sekcja-glowna {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.about-page {
+    flex: 1;
+    max-width: 600px;
+}
+
+.obrazki {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start; 
+}
+
+.row {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tina {
+    object-fit: cover;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    
+}
+
+#obrazek2 {
+    width: 400px;
+    height: 400px;
+    align-self: flex-start; 
+}
+@media (max-width: 768px) {
+    .sekcja-glowna {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .tina {
+        width: 120px;  
+        height: 120px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tina {
+        width: 100px;  
+        height: 100px;
+    }
+}
+.obrazki p{
+    color: #fff;
+}
+.hobby p{
+    color: #fff;
+}
+#dane{
+    color: #C66EFF;
+}
+.szkielet p {
+    margin-bottom: 20px;
+}
+
+.szkielet h1, .szkielet h2 {
+    margin-bottom: 20px; 
+}
