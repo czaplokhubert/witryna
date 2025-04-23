@@ -252,3 +252,6 @@ form input[type="reset"] {
 .szkielet h1, .szkielet h2 {
     margin-bottom: 20px; 
 }
+.row p{
+    color: #C66EFF;
+}
